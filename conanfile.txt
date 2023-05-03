@@ -1,3 +1,5 @@
 [requires]
 libcurl/8.0.1
 
+[generators]
+PkgConfigDeps
