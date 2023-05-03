@@ -50,7 +50,7 @@ This should download the packages that you need.
 
  - [This](https://www.youtube.com/watch?v=GExnnTaBELk) Tutorial explains What a Makefile is and How to use it to build any project (It does not have to be a c/c++ project, it can literally be anything)
 
- - The Makefile written in this project works with any generic c++ project with a small adjustment. As seen in the tutorial, every `.cpp` file has a `.o` file. There is a variable called `_OBJS`, you have to list all your `.o` files there. **DO NOT CHANGE ANYTHING ELSE IN THE MAKEFILE**
+ - The Makefile written in this project works with any generic c++ project with a small adjustment. As seen in the tutorial, every `.cpp` file has a `.o` file. There are automated scripts to handle that automatically. **DO NOT CHANGE ANYTHING ELSE IN THE MAKEFILE**
 
  - to build your project, simply run
  ```

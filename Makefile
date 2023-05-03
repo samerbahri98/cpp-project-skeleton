@@ -4,7 +4,8 @@ ODIR = obj
 SDIR = src
 INC = -Iinc
 
-_OBJS = ligma.o main.o
+_CPPFS = $(shell find $(SDIR)/*.cpp)
+_OBJS = $(foreach item,$(_CPPFS), $(item:$(SDIR)/%.cpp=%.o))
 
 OBJS = $(patsubst %,$(ODIR)/%,$(_OBJS))
 
