@@ -1,0 +1,3 @@
+{
+    "includePath": ["${workspaceFolder}/src/**", "~/.conan2/p/**/p/include"]
+}
